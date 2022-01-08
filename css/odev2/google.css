@@ -1,0 +1,36 @@
+.container{
+    margin: 0px auto;
+    width: 1400px;
+}
+.usticerik{
+    background-color: whitesmoke;
+    margin-bottom: 5px;
+}
+#inputid{
+    width: 250px;
+}
+.alt1{
+    width: 500px;
+    background-color: rgb(126, 229, 218);
+    float: left;
+    margin: 0 2px 2px 0;
+    padding: 13px 0px;
+    
+}
+.alt2{
+    width: 300px;
+    background-color:rgb(112, 204, 194);
+    float: left;
+    margin-right: 2px;
+    padding: 3.6px 0px;
+}
+.alt3{
+    width: 596px;
+    background-color: rgb(98, 179, 170);
+    float: left;
+}
+
+.footer{
+    text-align: center;
+    margin-top: 100px;
+}
