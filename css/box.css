@@ -1,0 +1,20 @@
+.container{
+    width: 1000px;
+    margin: 0px auto;
+}
+.leftBar{
+    width: 200px;
+    float: left;
+}
+.content{
+    width: 800px;
+    float: left;
+}
+.card{
+    width: 20%;
+    float: left;
+    padding: 5%;
+    margin-left: 3%;
+    border-radius: 10px;
+    background-color: thistle;
+}
