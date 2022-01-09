@@ -6,13 +6,14 @@
     font-family: arial,sans-serif;
     font-size: 13px;
   }
-  
+  /* üst simgeleri float ile sağa hizaladım */
   .headerli a {
     display: block;
     color: black;
     text-align: center;
     padding: 5px 5px;
     text-decoration: none;
+    float: right;
   }
   
   .headerli a:hover {
@@ -23,21 +24,32 @@
     text-align: center;
     margin: 100px;
   }
+  /* logo boyutunu düzenledim */
+  .logo{
+    max-height: 92px;
+    position: relative;
+    height: 100%;
+    margin-top: auto;
+  }
   
   .search-area {
     background: #fff;
     display: flex;
-    border: 1px solid #dfe1e5;
     box-shadow: none;
+    border: 1px solid #dfe1e5;
     z-index: 3;
     height: 44px;
     margin: 0 auto;
     margin-top: -77px;
-    width: 582px;
+    max-width: 584px;
+    width: auto;
+    border-radius: 24px;
   }
-  
+  /* arama alanındaki gölgeyi düzenledim */
   .search-area:hover {
-  box-shadow: 0 2px 3px 0 rgba(0,0,0,0.24), 0 2px 5px 0 rgba(0,0,0,0.19);
+    box-shadow: 0 1px 6px rgb(32 33 36 / 28%);
+    border: none;
+    border-radius:24px;
   }
   
   .search {
@@ -45,6 +57,9 @@
     display: flex;
     padding: 5px 8px 0 16px;
     padding-left: 14px;
+    box-shadow: 0 1px 6px 0 rgb(32,33,36/28%);
+    border: none;
+    border-radius:24px;
   }
   
   .search-img {
@@ -102,26 +117,55 @@
     text-align: start;
     appearance: textfield;
     cursor: text;
+    border: none;
+    width: 480px;
+  }
+  .buttons{
+    padding-top: 18px;
+    height: 70px;
   }
   
   .googlesearch {
+    background-color: #f8f9fa;
+    border: 1px solid #f2f2f2;
+    border-radius: 4px;
+    color: #5f6368;
+    font-family: arial,sans-serif;
+    font-size: 14px;
     margin: 11px 4px;
     padding: 0 16px;
     line-height: 27px;
+    height: 36px;
     min-width: 54px;
     text-align: center;
     cursor: pointer;
     user-select: none;
   }
-  
+  /* iki butonu da en yeni haline göre düzenledim */
   .feelinglucky {
+    background-color: #f8f9fa;
+    border: 1px solid #f2f2f2;
+    border-radius: 4px;
+    color: #5f6368;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
     padding: 0 16px;
     line-height: 27px;
+    height: 36px;
     min-width: 54px;
     text-align: center;
     cursor: pointer;
     user-select: none;
   }
+  /* butonlara gölge efekti ekledim */
+  .googlesearch:hover {
+    box-shadow: 0 1px 6px rgb(32 33 36 / 28%);
+  }
+  .feelinglucky:hover {
+    box-shadow: 0 1px 6px rgb(32 33 36 / 28%);
+  }
+  
   
   .footer {
     margin: 0;
@@ -134,10 +178,12 @@
     width: 100%;
     margin-left: -8px;
     line-height: 10px;
+    background-color: #f2f2f2;
   }
-  
+  /* footer alanındaki liste noktalarını yokettim */
   .footerli {
     float: left;
+    list-style-type: none;
   }
   
   .footerli a {
@@ -155,3 +201,16 @@
   .footerli a:hover {
     text-decoration: underline;
   }
+  /* profil fotosunu düzenledim */
+  .profilepic{
+    background-size: 32px 32px;
+    border: 0;
+    border-radius: 50%;
+    display: block;
+    margin: 0px;
+    position: relative;
+    height: 32px;
+    width: 32px;
+    z-index: 0;
+  }
+  
