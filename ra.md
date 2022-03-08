@@ -1,1 +1,0 @@
-![Referanslar bir isim](raporlar\1.png)
