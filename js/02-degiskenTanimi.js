@@ -19,7 +19,7 @@ console.log(serverName)
 
 /*let ile değişkene bilgi atayarak tanımlamak
 
-let password = "1234"
+let password = "1234";
 console.log(password)
 */
 
@@ -73,7 +73,7 @@ BigInt = 2^53-1 değerinden büyük değerleri atayabilir.
 String = Metinsel ifadelerdir. Metinsel ifade tanımlanırken ifade “ ” veya ‘ ’ işaretleri arasına yazılır.
 Object = Yukarıda ki 7 veri türü de primitive tiplidir. Objelerde ( nesne, dizi ) gibi referans tipler de değişkenlere atanabilir.
 var
-Global scope veya function scope'ta deklarasyon sağlayamaya yarayan keyword'dur. Scope özelliklerini daha sonra örneklerle açıklayacağız. var ile tanımlanan değişkenlerin özellikleri şunlardır.
+Global scope veya function scope'ta deklarasyon sağlamaya yarayan keyword'dur. Scope özelliklerini daha sonra örneklerle açıklayacağız. var ile tanımlanan değişkenlerin özellikleri şunlardır.
 
 Değişken değerleri değiştirilebilir.
 Aynı isimle tekrardan tanımlanabilirler.
